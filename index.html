@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram orqali pul ishlash</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            text-align: center;
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Ekranga moslashtiradi */
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        /* Video responsiv */
+        video {
+            width: 100%;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+        }
+
+        /* Button (a dan yasalgan) */
+        .btn {
+            display: inline-block;
+            margin-top: 18px;
+            background: rgb(71, 71, 255);
+            color: #fff;
+            padding: 15px 40px;
+            border-radius: 8px;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.25s;
+        }
+
+        .btn:hover {
+            background: #e0005f;
+        }
+
+        @media(max-width: 480px) {
+            h1 {
+                font-size: 22px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 10px 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="background-image" src="./img/download (2).jpg" alt="">
+        <h1>INSTAGRAM ORQALI PUL ISHLASH</h1>
+
+        <h2>QO'LLANMA VIDEO 👇👇👇</h2>
+
+        <video src="./video/1125.mp4" controls></video>
+
+        <a href="https://vkserfing.ru/?ref=550943607" target="_blank" rel="noopener noreferrer" class="btn">
+            SAYT SILKASI
+        </a>
+
+    </div>
+
+</body>
+
+</html>
